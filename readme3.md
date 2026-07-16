@@ -2,10 +2,9 @@
 
 # Hey, I'm Radhey Gajera 👋
 
-### Backend Engineer · Aspiring Data Engineer
-### Java & Spring Boot · Python · SQL · Pipeline Architecture
+### Backend Engineer · Java & Spring Boot Specialist
 
-**Building robust backend systems today. Designing data infrastructure for tomorrow.**
+**Building secure, scalable, production-ready backend systems.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/radhey-gajera/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:radheygajera@gmail.com)
@@ -17,9 +16,7 @@
 
 ## 🧑‍💻 About Me
 
-I'm a **Backend Engineer transitioning into Data Engineering**, currently pursuing MCA at **CHARUSAT University**. I've spent the last two years mastering the Java & Spring ecosystem — building secure REST APIs, layered architectures, and production-grade backends.
-
-Now I'm combining that systems-thinking foundation with Python, SQL, and pipeline tooling to move into the **Data Engineering** space.
+I'm a **Backend Software Engineer** and MCA student at **CHARUSAT University**, specializing in the **Java & Spring ecosystem**. I build the engines that power robust applications — clean RESTful APIs, optimized databases, and bulletproof security layers.
 
 ```java
 public record Radhey() {
@@ -28,21 +25,18 @@ public record Radhey() {
         return "MCA @ Charotar University of Science and Technology (2025–2027)";
     }
 
-    public static Map<String, List<String>> stack() {
-        return Map.of(
-            "Backend",      List.of("Java 17+", "Spring Boot 3", "Spring Security 6", "REST APIs"),
-            "Data Eng",     List.of("Python", "SQL", "DuckDB", "MotherDuck", "MongoDB"),
-            "Full Stack",   List.of("React", "Next.js", "TypeScript"),
-            "DevOps",       List.of("Docker", "Git", "Linux", "AWS Basics")
+    public static List<String> focusAreas() {
+        return List.of(
+            "☕  Spring Boot 3 · Spring Security 6 · Spring Data JPA",
+            "🔒  JWT Auth · OAuth2 · RBAC · BCrypt",
+            "🗄️  PostgreSQL · MySQL · Redis Caching",
+            "🐳  Docker · Microservices Architecture",
+            "⚡  REST API Design · System Design · Clean Code"
         );
     }
 
-    public static String trajectory() {
-        return "Backend Engineer ──► Full Stack ──► Data Engineer";
-    }
-
     public static String openTo() {
-        return "Java Backend · Data Engineering Internships & Full-time Roles";
+        return "Java Backend Internships & Full-time Roles";
     }
 }
 ```
@@ -51,36 +45,14 @@ public record Radhey() {
 
 ## 🛠️ Tech Stack
 
-### ⚙️ Backend — Java & Spring Ecosystem
+### ⚙️ Core — Languages & Frameworks
 
 ![Java](https://img.shields.io/badge/Java_17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
-**Spring Ecosystem:** Spring Data JPA · Hibernate ORM · Spring MVC · Spring Web · Lombok · Jackson · Swagger/OpenAPI · Spring AI
-
----
-
-### 📊 Data Engineering Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_Fundamentals-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-**DE Skills:** ETL/ELT Pipeline Design · Window Functions · CTEs · Aggregation Pipelines · Analytical SQL · MotherDuck Cloud · Data Modeling · OLAP Querying
-
----
-
-### 🎨 Frontend & Full Stack
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+**Spring Ecosystem:** Spring Data JPA · Hibernate ORM · Spring MVC · Spring Web · Lombok · Jackson · Swagger/OpenAPI
 
 ---
 
@@ -88,36 +60,32 @@ public record Radhey() {
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
 
-**Database Skills:** ER Modeling · Complex JOINs · B-Tree Indexing · Query Optimization · Normalization · Transaction Management · MQL · Aggregation Pipelines · Stored Procedures
+**Database Skills:** ER Modeling · Complex JOINs · B-Tree Indexing · Query Optimization · Normalization · Transaction Management
 
 ---
 
 ### 🔐 Security & API Design
 
-- Stateless **REST APIs** with layered architecture and DTO pattern
-- **JWT** authentication & stateless token validation
+- **Stateless REST APIs** following layered architecture and DTO pattern
+- **JWT** authentication & token validation
 - **Spring Security 6** — filter chains, auth managers, `SecurityFilterChain`
 - **RBAC** — Role-Based Access Control with custom authorities
 - **BCrypt** password hashing
 - **Global exception handling** via `@ControllerAdvice` + `@RestControllerAdvice`
 - **Swagger / OpenAPI 3** documentation
-- API versioning, pagination, and rate limiting concepts
 
 ---
 
-### 🏗️ Architecture & Engineering Principles
+### 🏗️ Architecture & Engineering
 
 - Layered Architecture (Controller → Service → Repository)
-- SOLID Principles & OOP Design Patterns
+- SOLID Principles & OOP
 - DTO Pattern & Separation of Concerns
-- Clean Code & Conventional Commits
+- Clean Code & Meaningful Naming
 - Transaction Management with `@Transactional`
-- Microservices Architecture Concepts
-- System Design fundamentals (Caching, Load Balancing, DB Sharding)
+- API versioning & pagination
 
 ---
 
@@ -125,39 +93,24 @@ public record Radhey() {
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-
 
 ---
 
 ## 🚀 Projects
 
-### 📊 [Job Market Analysis Pipeline](https://github.com/radhey803) — Data Engineering Portfolio
-`Python` `DuckDB` `MotherDuck` `SQL` `Analytics`
-
-> End-to-end data pipeline analyzing real-world job listing data to surface hiring trends, in-demand skills, and salary insights across tech roles.
-
-
-- Built OLAP-style queries with **DuckDB** for fast, in-process columnar analytics
-- Deployed to **MotherDuck** cloud for persistent, shareable analytical access
-- Leveraged window functions, CTEs, GROUP BY rollups, and aggregations to extract insights
-- Structured with **Conventional Commits**, professional README, and reproducible pipeline
-
----
-
 ### 🔗 [Chordi](https://github.com/radhey803/Chordi) — P2P File Sharing Application
 `Java` `Next.js` `React` `Socket Programming` `Docker` `REST API`
 
-> Peer-to-peer file sharing system enabling direct device-to-device transfer — no centralized storage, no middleman.
+> Peer-to-peer file sharing system enabling direct device-to-device transfer.
 
-- Built REST API layer in **Java** with layered `controller/service/utils` architecture
+- Built REST API layer using Java with layered `controller/service/utils` architecture
 - Implemented dynamic port allocation to generate secure invite codes for file sharing
-- Real-time file streaming between peers via **socket programming**
+- Real-time file streaming between peers — no centralized storage needed
 - Containerized with **Docker** (separate `Dockerfile.backend` + `Dockerfile.frontend`)
-- Responsive frontend in **Next.js + TypeScript** with drag-and-drop file upload
+- Responsive frontend in **Next.js + TypeScript** with drag-and-drop upload
 - 🌐 **Live:** [chordi-mocha.vercel.app](https://chordi-mocha.vercel.app)
 
 ---
@@ -165,16 +118,15 @@ public record Radhey() {
 ### 📱 [Fitza](https://github.com/radhey803/Fitza) — Android E-Commerce App
 `Kotlin` `Firebase` `Razorpay` `MVVM` `FCM`
 
-> Full-stack Android application for customized clothing orders with real-time tracking and payment integration.
+> Full-stack Android application for customized clothing orders with real-time tracking.
 
-- Real-time order tracking via **Firebase Realtime Database**
-- Secure payment integration via **Razorpay** payment gateway
-- Push notifications for customers and admin via **Firebase Cloud Messaging (FCM)**
-- Admin dashboard for order management and live status updates
-- **MVVM architecture** for clean, testable, maintainable codebase
+- Real-time order tracking using **Firebase Realtime Database**
+- Secure payments via **Razorpay** payment gateway
+- Push notifications via **Firebase Cloud Messaging (FCM)** for admin and customers
+- Admin dashboard for order management and status updates
+- **MVVM architecture** for clean, maintainable, scalable codebase
 
 ---
-
 
 ## 📜 Certifications
 
@@ -198,7 +150,7 @@ public record Radhey() {
 
 ## 🧩 Core CS Fundamentals
 
-`Data Structures & Algorithms` · `System Design` · `OOP & Design Patterns` · `DBMS` · `Operating Systems` · `Computer Networks` · `Distributed Systems Concepts`
+`Data Structures` · `Algorithms` · `System Design` · `OOP` · `DBMS` · `OS Concepts`
 
 ---
 
@@ -219,11 +171,10 @@ public record Radhey() {
 
 ## 💼 Open To
 
-- 🎯 **Java Backend / Spring Boot** — Internships & Full-time roles (India, immediate)
-- 📊 **Data Engineering** — Internships & Entry-level DE positions
-- 🌍 **Long-term:** Relocating to **Germany** for Senior DE / Backend Engineer roles (~2029)
-- 🤝 **Open-source** — Java, Spring Boot, Python, or Data Engineering projects
-- 🛠️ **Freelance** — Backend APIs, full-stack web, or data pipeline consulting
+- 🎯 **Java Backend / Spring Boot Internships**
+- 💼 **Full-time Backend Engineer Roles**
+- 🤝 **Open-source collaboration** on Java/Spring Boot projects
+- 🛠️ **Freelance** backend API development
 
 ---
 
@@ -243,7 +194,7 @@ public record Radhey() {
 
 <div align="center">
 
-**"Engineering the systems that move data — one pipeline at a time."**
+**"Building software that scales, one robust API at a time."**
 
 ⭐ Feel free to explore my repos and reach out — always open to a good conversation!
 
