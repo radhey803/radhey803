@@ -41,24 +41,11 @@ public record Radhey() {
         return "Backend Engineer ──► Full Stack ──► Data Engineer";
     }
 
-    public static String goal() {
-        return "India placements now. Germany 🇩🇪 for DE roles by 2029.";
-    }
-
     public static String openTo() {
         return "Java Backend · Data Engineering Internships & Full-time Roles";
     }
 }
 ```
-
----
-
-## 🔨 Currently Building
-
-| Project | Stack | Status |
-|---------|-------|--------|
-| **Full Stack Task/Management App** | `Spring Boot 3` `React` `PostgreSQL` `JWT` `Docker` | 🚧 In Progress |
-| **Integrated Hospital Intelligence Platform** | `Spring Boot` `Python` `SQL` `Spring AI` | 🚧 MCA Mini Project |
 
 ---
 
@@ -142,7 +129,7 @@ public record Radhey() {
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+
 
 ---
 
@@ -153,7 +140,7 @@ public record Radhey() {
 
 > End-to-end data pipeline analyzing real-world job listing data to surface hiring trends, in-demand skills, and salary insights across tech roles.
 
-- Ingested and cleaned raw job listing datasets using **Python** and analytical SQL
+
 - Built OLAP-style queries with **DuckDB** for fast, in-process columnar analytics
 - Deployed to **MotherDuck** cloud for persistent, shareable analytical access
 - Leveraged window functions, CTEs, GROUP BY rollups, and aggregations to extract insights
@@ -188,16 +175,6 @@ public record Radhey() {
 
 ---
 
-### 🌐 [BabaWaterTank.com](https://babawatertank.com) — Production Freelance Site
-`HTML` `CSS` `JavaScript` `Client Delivery`
-
-> Production website designed and delivered for Ramdev Polymers — a real client, live in production.
-
-- Handled full delivery cycle: client requirements → UI/UX design → deployment
-- Implemented a clean white + charcoal product showcase with mobile responsiveness
-- Demonstrates real-world client delivery and product thinking beyond academic projects
-
----
 
 ## 📜 Certifications
 
